@@ -1,0 +1,98 @@
+/* HOME STYLE */
+
+@font-face{
+    font-family:'sallomae';
+   src: url(sallomae-sallomae-400.ttf);
+}
+@font-face{
+    font-family: 'calera-display';
+    src: url(calera-display-calera-display-regular-400.ttf);
+}
+@font-face{
+    font-family: 'nila-and-bila';
+    src: url(nila-and-bila-nila-and-bila-vol1-400.ttf);
+}
+.home-img-1{
+    position: relative;
+    padding: 20px;
+}
+.home-text-1{
+    position: absolute;
+    top:10%;
+    left:20% ;
+    color: #e4242e;
+}
+.home-text-1 h1{
+    color: #ecc90e;
+    font-family: 'calera-display';
+    font-size:70px;
+    line-height: 85px;
+    
+}
+.home-text-1 p{
+    color: #ecc90e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.search-text{
+    width: 50%;
+    padding: 10px 100px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.home-text-2 h1{
+    font-family: 'nila-and-bila';
+    color: #46084e;
+}
+.home-text-2 p{
+    font-family: 'nila-and-bila';
+    color: #46084e;
+}
+.search-text input{
+    border-radius:5px 0px 0px 5px ;
+    background: #efefef !important;
+    color: #46084e !important;
+}
+.search-text input:focus{
+ border: none !important;
+ box-shadow: none !important;
+ 
+}
+.search-text button{
+    border-radius:0px 5px 5px 0px ;
+    background: #efefef !important;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,400px));
+    row-gap: 20px;
+    justify-content: space-around;
+    justify-items: center;
+}
+.home-shape-2{
+    position: relative;
+}
+.home-img-2{
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    left: 24%;
+}
+.home-text-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #46084e;
+}
+.home-inmg-4{
+    position: relative;
+    margin: 100px 0px !important;
+}
+.home-text-4{
+    position: absolute;
+    width: 400px;
+    top: 30%;
+    left: 8%;
+    color: green;
+}
